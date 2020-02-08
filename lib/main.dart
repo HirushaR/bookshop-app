@@ -50,7 +50,7 @@ class CustomTitleBar extends StatelessWidget {
             width: 15,
           ),
           Expanded(
-            child: Text("BooksApp",
+            child: Text("Eshop",
                 style: TextStyle(
                   fontSize: 30,
                   fontFamily: "lovelo",
@@ -106,7 +106,7 @@ class HorizontalListView extends StatelessWidget {
             color: Colors.black54,
           ),
           Text(
-            "Novels with a popular franchise",
+            "Populer Items",
             style: TextStyle(
                 color: Colors.black87,
                 fontWeight: FontWeight.w700,
@@ -177,7 +177,7 @@ class HotList extends StatelessWidget {
         children: <Widget>[
           Padding(padding: EdgeInsets.only(bottom: 20.0),
           child: Text(
-            "New Book Hot List",
+            "New Item Hot List",
             style: TextStyle(
               color: Colors.black,
               fontSize: 30.0,
